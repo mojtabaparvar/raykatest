@@ -27,9 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Project structure
-| shared code like interceptors, animations and general and global services are inside the shared module
-| to demonstrate lazy loding, the home module is lazy loaded but it is not actually needed here
-| style related variables are inside variables.scss in the root of src folder
-| environment variables like global error message and apiurl are inside environment folder
-| for test purposes, the code coverage option is activatedinside the angular.json file
+| shared code like interceptors, animations and general and global services are inside the shared module\
+| to demonstrate lazy loding, the home module is lazy loaded but it is not actually needed here\
+| style related variables are inside variables.scss in the root of src folder\
+| environment variables like global error message and apiurl are inside environment folder\
+| for test purposes, the code coverage option is activatedinside the angular.json file\
+
 
