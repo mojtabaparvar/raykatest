@@ -1,0 +1,13 @@
+@import "~src/variables.scss";
+.wrapper{
+        background-color: $main-color;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1%;
+}
+h1{
+    margin-bottom: 20px;
+}

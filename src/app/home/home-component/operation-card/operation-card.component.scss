@@ -1,0 +1,38 @@
+@import "~src/variables.scss";
+
+.item{
+    width: 275px;
+    display: flex;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    height: 80px;
+    box-shadow: 0 23px 23px -23px hsl(0deg 0% 73% / 40%);
+    transition: transform .2s ease-in-out,box-shadow .2s ease-in-out;
+    cursor: pointer;
+    background-color: #fff;
+        margin-bottom: 15px;
+
+    &:hover {
+    transform: translate3d(0,-5px,0);
+    box-shadow: 0 31px 23px -23px hsl(0deg 0% 73% / 40%);
+}
+    &__name{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: $accent-color;
+    align-items: center;
+    }
+    &__operation{
+    display: flex;
+    align-self: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    }
+}

@@ -1,1 +1,96 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "~src/variables.scss";
+/* ----------------------------- general styles ----------------------------- */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.df {
+  display: flex;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+/* ------------------------------ input styles ------------------------------ */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.mat-form-field-outline-start,
+.mat-form-field-outline-end {
+  border-radius: 0 !important;
+}
+
+/* ----------------------- general classes and styles ----------------------- */
+
+button {
+  border: none;
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+
+.notif-success {
+  color: white !important; // green
+  background-color: $green !important;
+  border-color: white !important;
+
+  simple-snack-bar {
+    justify-content: center;
+  }
+}
+
+.notif-error {
+  color: white !important; // green
+  background-color: $red !important;
+  border-color: white !important;
+
+  simple-snack-bar {
+    justify-content: center;
+  }
+}

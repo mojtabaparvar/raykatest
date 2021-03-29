@@ -1,0 +1,8 @@
+<div class="item" (click)="emitClickEvent()" *ngIf="data">
+    <div class="item__name">
+        {{data.name}}
+    </div>
+    <div class="item__operation">
+        {{data.finalResponse||'&lt;MISSING DATA&gt;'}}
+    </div>
+</div>
