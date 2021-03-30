@@ -99,7 +99,6 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
   cardClicked(clickedNumber: NumbersModel) {
     console.log(clickedNumber, "this is the clicked number");
-
   }
   ngOnDestroy() {
     this._onDestroy.next();

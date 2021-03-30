@@ -22,9 +22,4 @@ describe('OperationCardComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  it('should have data', () => {
-
-    fixture.detectChanges();
-    expect(component.data).toBeTruthy();
-  })
 });
